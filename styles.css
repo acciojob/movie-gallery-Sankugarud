@@ -1,2 +1,11 @@
 
 /* Your CSS Code here. */
+img{
+	width: 100px;
+}
+.row-1{
+	display: grid;
+	grid-template-columns: repeat(12, 100px);
+	gap: 10px;
+	flex-wrap: wrap;
+}
